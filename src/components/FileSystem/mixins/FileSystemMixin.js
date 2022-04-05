@@ -1,6 +1,4 @@
 import { mapState, mapGetters, mapActions } from 'vuex'
-// var fs = require('fs')
-import axios from 'axios'
 
 export default {
   computed: {
