@@ -34,7 +34,6 @@
 </template>
 
 <script>
-import axios from 'axios'
 import FileSystemMixin from './mixins/FileSystemMixin'
 
 export default {

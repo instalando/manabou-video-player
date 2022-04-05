@@ -1,6 +1,6 @@
 <template>
   <section>
-    <v-dialog
+    <!-- <v-dialog
       v-model="visible"
       max-width="700px"
       @change="(val) => $emit('update:visible', val)"
@@ -29,7 +29,7 @@
           </v-card-text>
         </v-container>
       </v-card>
-    </v-dialog>
+    </v-dialog> -->
   </section>
 </template>
 
