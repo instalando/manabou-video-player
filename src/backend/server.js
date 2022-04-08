@@ -1,5 +1,6 @@
 import Fastify from 'fastify'
 import videoStreaming from './videoStreaming'
+import SearchWord from './searchWord'
 const fastify = Fastify({
   logger: true
 })
@@ -32,6 +33,8 @@ fastify.get('/api/load_file', (req, reply) => {
   reply.type('text/plain')
   reply.send(stream)
 })
+
+fastify.get('/api/search_word', SearchWord)
 
 // Run the server!
 fastify.listen(3000, function (err, address) {
