@@ -30,9 +30,9 @@ Se já estiver com sua coleção pronta, Abra o Manabou Video Player e navegue p
 
 ### Requisitos
  
- - Build Essential (Será necessário o build essentials para compilar o sqlite3)
- - Node 16+
- - Yarn 1.22+
+ - Build Essential (Será necessário o build essential para compilar o sqlite3)
+ - Node v16+
+ - Yarn v1.22+
 
 
 ### Comandos para compilar
