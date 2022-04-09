@@ -2,7 +2,7 @@
 
 Manabou Video Player é um aplicativo ainda em desenvolvimento com o objetivo em especial de agilizar os estudos de idiomas estrangeiros (Especialmente Japonês).
 
-![](https://user-images.githubusercontent.com/50197635/162561203-837cdef2-a503-4470-947c-7ae075da041d.png
+![Manabou Video Player Preview](https://user-images.githubusercontent.com/50197635/162561203-837cdef2-a503-4470-947c-7ae075da041d.png
 )
 
 ### O que o Manabou Video Player pode fazer?
@@ -25,3 +25,30 @@ Os nomes das legendas precisam seguir um padrão:
  - As legendas do idioma que você está estudando precisam estar no **formato: episodio-1.jpn.srt** (esp. Japonês)
 
 Se já estiver com sua coleção pronta, Abra o Manabou Video Player e navegue pelo Gerenciador de Arquivos até a pasta do vídeo.
+
+# Compilando o Manabou Video Player
+
+### Requisitos
+ 
+ - Build Essentials (Será necessário o build essentials para compilar o sqlite3)
+ - Node 16+
+ - Yarn 1.22+
+
+
+### Comandos para compilar
+```sh
+$ sudo apt install build-essentials -y # Caso estiver no linux
+$ yarn install
+$ yarn electron:build
+```
+
+## Rodando em ambiente de desenvolvimento
+
+Inicie os serviços de desenvolvimento com:
+```sh
+$ yarn electron:serve
+```
+
+O aplicativo Electron será aberto, com a janela principal servindo do servidor de desenvolvimento.
+Uma pequena API será rodada em background usando Fastify no Host: http://localhost:3000/
+
