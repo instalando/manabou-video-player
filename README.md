@@ -30,14 +30,14 @@ Se já estiver com sua coleção pronta, Abra o Manabou Video Player e navegue p
 
 ### Requisitos
  
- - Build Essentials (Será necessário o build essentials para compilar o sqlite3)
+ - Build Essential (Será necessário o build essentials para compilar o sqlite3)
  - Node 16+
  - Yarn 1.22+
 
 
 ### Comandos para compilar
 ```sh
-$ sudo apt install build-essentials -y # Caso estiver no linux
+$ sudo apt install build-essential -y # Caso estiver no linux
 $ yarn install
 $ yarn electron:build
 ```
